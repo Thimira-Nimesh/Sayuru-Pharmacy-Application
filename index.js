@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  console.log;
+  console.log("first commit");
 });
 
 app.listen(3000, (req, res) => {
