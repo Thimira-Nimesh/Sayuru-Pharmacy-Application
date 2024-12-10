@@ -19,3 +19,18 @@ function postMedicine(req, res) {
     });
 }
 module.exports = postMedicine;
+
+function findMedicine(req, res) {
+  Medicine.findAll()
+    .then((medicinelist) => {
+      res.json({
+        medicinelist,
+      });
+    })
+    .catch(() => {
+      res.json({
+        message: "medicine list Error",
+      });
+    });
+}
+module.exports = findMedicine;
