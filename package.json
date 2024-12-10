@@ -2,7 +2,6 @@
   "name": "pharmacy",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
@@ -19,7 +18,11 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.5",
     "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2",
     "sequelizer": "^1.1.4"
   }
 }
